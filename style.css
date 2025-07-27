@@ -1,0 +1,97 @@
+body {
+  background-color: black;
+}
+
+input {
+  max-width: 100%;
+  box-sizing: border-box;
+  border: thin solid burlywood;
+  padding: 5px;
+  margin-top: 0px;
+  border-radius: 0.5em;
+}
+label {
+  font-size: 10px;
+  color: gray;
+  margin-bottom: 0px;
+}
+.input-class {
+  background-color: white;
+  width: 100%;
+  border-radius: 0.5em;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+#sign-up-form {
+  margin-top: 0.5em;
+  align-items: center;
+}
+#sign-up-btn {
+  background-color: rgb(27, 24, 198);
+  border: thin solid #5c67c6;
+  color: white;
+  width: 100%;
+  margin: 1em;
+  padding: 0.5em;
+  font-weight: bold;
+  border-radius: 0.5em;
+}
+#register-form {
+  font-family: "Domine", serif;
+  background-color: white;
+  border-radius: 0.5em;
+  padding: 1em;
+  width: fit-content;
+}
+#register-form h2,
+#register-form h3 {
+  margin-top: 0em;
+  margin-bottom: 0.5em;
+}
+#register-form > p {
+  margin: 0.1em;
+  font-size: 10px;
+  color: gray;
+}
+
+#password-pattern {
+  color: gray;
+  font-size: 0.84em;
+  box-sizing: content-box;
+  width: fit-content;
+  height: 8em;
+  margin-bottom: 15px;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  border: thin solid burlywood;
+}
+#password-pattern p {
+  margin: 3px;
+}
+
+#password-pattern p > span {
+  font-size: 0.8em;
+}
+
+#password-div {
+  justify-content: space-between;
+}
+#password-div {
+  justify-content: space-between;
+}
+#password {
+  width: 100%;
+}
+#view-btn {
+  background-color: transparent;
+  border: none;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="register-form" class="flex-column">
+      <h2>Register Now</h2>
+      <h3>Plan Smarter, Travel Better!</h3>
+      <p>Create your free account to save your travel plans,</p>
+      <p>access your history anytime, and never lose an itinerary again!</p>
+      <form method="post" id="sign-up-form" class="flex-column">
+        <div class="input-class flex-column">
+          <label for="firstName" class="label">First Name</label>
+          <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            placeholder="Kie"
+            aria-label="First Name"
+            required
+          />
+        </div>
+
+        <div class="input-class flex-column">
+          <label for="lastName">Last Name</label>
+          <input
+            type="text"
+            name="lastName"
+            id="lastName"
+            placeholder="Tezuka"
+            aria-label="Last Name"
+            required
+          />
+        </div>
+
+        <div class="input-class flex-column">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="travel@mail.com"
+            aria-label="Email Address"
+            required
+          />
+        </div>
+
+        <div class="input-class flex-column">
+          <label for="password">Password</label>
+          <div id="password-pattern">
+            <p>✅ Must be 8–15 characters and include:</p>
+            <p id="check-length">• 8–15 characters <span></span></p>
+            <p id="check-uppercase">• Uppercase letter <span></span></p>
+            <p id="check-lowercase">• Lowercase letter <span></span></p>
+            <p id="check-number">• Number <span></span></p>
+            <p id="check-special">
+              • Special character (e.g. ? ! @ # $ % ^ & *) <span></span>
+            </p>
+          </div>
+
+          <div id="password-div" class="flex-row">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              aria-label="Password"
+              placeholder="********"
+              pattern="(?=.*\d)(?=.*[a-z]+)(?=.*[A-Z]+)(?=.*[?!@#$%^&*]).{8,15}"
+              required
+            />
+            <button type="button" id="view-btn">
+              <img src="./images/hide.png" alt="Hide password" />
+            </button>
+          </div>
+        </div>
+
+        <button type="submit" id="sign-up-btn">Sign Up</button>
+      </form>
+      <p>Already have an account? <a href="">[Log In Here]</a></p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
