@@ -26,6 +26,7 @@ This is a simple and responsive **Sign Up Form** built for the Travel Planner we
 
 ### ✅ Password Pattern Checks
 
+![Password Pattern Checks Demo](./screen-shots/password-check.gif "Password Pattern Checks Demo")
 The form checks the password input for the following criteria in real-time:
 
 - 8–15 characters
